@@ -279,6 +279,17 @@ a { color: inherit; }
 .disco-label { font-size: 0.78rem; color: var(--text-dim); margin-bottom: 8px; text-transform: uppercase; letter-spacing: 1px; }
 .disco-role { font-size: 0.85rem; color: var(--text-muted); }
 
+/* ---- Video cards ---- */
+.vid { position: relative; display: block; width: 360px; max-width: 100%; aspect-ratio: 16/9; flex-shrink: 0; overflow: hidden; clip-path: polygon(14px 0, 100% 0, 100% calc(100% - 14px), calc(100% - 14px) 100%, 0 100%, 0 14px); box-shadow: 0 12px 40px rgba(0,0,0,0.5); }
+.vid img { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform 0.4s; }
+.vid:hover img { transform: scale(1.04); }
+.vid-play { position: absolute; left: 50%; top: 50%; width: 64px; height: 64px; transform: translate(-50%,-50%); display: grid; place-items: center; background: linear-gradient(180deg, var(--accent-hi), var(--accent) 55%, var(--accent-dim)); color: #1a1206; clip-path: polygon(10px 0, 100% 0, 100% calc(100% - 10px), calc(100% - 10px) 100%, 0 100%, 0 10px); box-shadow: 0 0 30px rgba(230,185,74,0.5); transition: transform 0.2s; }
+.vid:hover .vid-play { transform: translate(-50%,-50%) scale(1.08); }
+.vid-play svg { width: 30px; height: 30px; margin-left: 3px; }
+.vid-frame { width: 360px; max-width: 100%; aspect-ratio: 16/9; border: 0; flex-shrink: 0; clip-path: polygon(14px 0, 100% 0, 100% calc(100% - 14px), calc(100% - 14px) 100%, 0 100%, 0 14px); }
+.disco-stats a { color: var(--accent); text-decoration: none; }
+@media (max-width: 768px) { .vid, .vid-frame { width: 100%; } }
+
 /* ---- Stage map ---- */
 .stage-map { margin-bottom: 32px; }
 .map-wrap { position: relative; overflow: hidden; --cut: 16px; --panel: #0d0c0b; }
@@ -575,7 +586,7 @@ a { color: inherit; }
             <div class="section-label"><span class="label-tag">05</span><span class="label-text">Video</span></div>
             <div class="section-content">
                 <h2 class="section-title fade-up">Directed.</h2>
-                <p class="section-sub fade-up">Music videos and visualizers directed by Dynasty, most of them for records he also produced.</p>
+                <p class="section-sub fade-up">Music videos and visualizers directed by Dynasty, most of them for records he also produced. <span class="live-count" id="videoCount"></span></p>
             </div>
         </div>
         <div class="disco-carousel fade-up" data-carousel="video">
@@ -660,11 +671,7 @@ const SERVICES = [
 ];
 // Stages: d = ISO date (or range "start/end"), n = event, w = where, t = type, a = artist, r = role, u = true if not fully verified, s = source
 let LIVE = [];
-const VIDEOS = [
-  {a:"Artist Name", t:"Video Title", l:"Directed by Dynasty · 2026", r:"Director · Producer of the record", s:"Replace with your real video, add a YouTube link", h:0},
-  {a:"Artist Name", t:"Video Title", l:"Directed by Dynasty · 2025", r:"Director · Editor", s:"Replace with your real video", h:200},
-  {a:"Artist Name", t:"Visualizer", l:"Directed by Dynasty · 2025", r:"Director", s:"Replace with your real video", h:300},
-];
+let VIDEOS = [];
 const EMAIL = "dynasty@dynastydigital.net";
 /* ===================================================================== */
 
@@ -749,7 +756,6 @@ document.getElementById("servicesGrid").innerHTML = SERVICES.map((s,i)=>`<div cl
 
 // projects / video carousels
 const slide=p=>`<div class="disco-card frame disco-slide"><div class="disco-cover${p.wide?" wide":""}">${art(p.h,ini(p.t))}</div><div class="disco-info"><div class="disco-artist">${esc(p.a)}</div><div class="disco-album">${esc(p.t)}</div><div class="disco-label">${esc(p.l)}</div><div class="disco-role">${esc(p.r)}</div><div class="disco-stats">${esc(p.s)}</div></div></div>`;
-document.getElementById("videoTrack").innerHTML = VIDEOS.map(v=>slide({...v,wide:true})).join("");
 
 // live: date formatting, year + type filters, show-more
 const fmtDate=iso=>{const [y,m,d]=iso.split("-");return d?`${MONTHS[+m-1]} ${+d}, ${y}`:`${MONTHS[+m-1]} ${y}`;};
@@ -965,7 +971,18 @@ function initDisco(car){
   car.querySelector(".disco-next").onclick=()=>{go(cur+1);reset();};
   car.onmouseenter=()=>clearInterval(timer); car.onmouseleave=start; start();
 }
-initDisco(document.querySelector('[data-carousel="video"]'));
+// ---- Video: YouTube cards from videos.json; plays inline on the hosted site, opens YouTube elsewhere ----
+async function loadVideos(){
+  try { const r = await fetch("videos.json", {cache:"no-store"}); VIDEOS = (await r.json()).items || []; } catch(e){ VIDEOS = []; }
+  const sec = document.getElementById("video");
+  if (!VIDEOS.length) { sec.hidden = true; return; }
+  const canEmbed = !/claude\.ai$/.test(location.hostname);
+  document.getElementById("videoTrack").innerHTML = VIDEOS.map(v=>`<div class="disco-card frame disco-slide video-card"><a class="vid" href="https://www.youtube.com/watch?v=${v.id}" target="_blank" rel="noopener" data-id="${v.id}" aria-label="Play ${esc(v.t)}"><img src="${v.thumb||`https://i.ytimg.com/vi/${v.id}/hqdefault.jpg`}" alt="" loading="lazy"><span class="vid-play"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></span></a><div class="disco-info"><div class="disco-artist">${esc(v.a)}</div><div class="disco-album">${esc(v.t)}</div><div class="disco-role">${esc(v.r||"Directed by Dynasty")}</div><div class="disco-stats"><a href="https://www.youtube.com/watch?v=${v.id}" target="_blank" rel="noopener">Watch on YouTube ↗</a></div></div></div>`).join("");
+  if (canEmbed) document.querySelectorAll(".vid").forEach(a=>a.addEventListener("click",e=>{ e.preventDefault(); const f=document.createElement("iframe"); f.src=`https://www.youtube-nocookie.com/embed/${a.dataset.id}?autoplay=1&rel=0`; f.allow="autoplay; encrypted-media; picture-in-picture"; f.allowFullscreen=true; f.title=a.getAttribute("aria-label"); a.replaceWith(f); f.className="vid-frame"; }));
+  initDisco(document.querySelector('[data-carousel="video"]'));
+  document.getElementById("videoCount").textContent = `${VIDEOS.length} video${VIDEOS.length===1?"":"s"}`;
+}
+loadVideos();
 
 
 // ---- Badge tilt + glint (hero) ----
