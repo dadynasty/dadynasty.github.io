@@ -290,6 +290,18 @@ a { color: inherit; }
 .disco-stats a { color: var(--accent); text-decoration: none; }
 @media (max-width: 768px) { .vid, .vid-frame { width: 100%; } }
 
+/* ---- Live At Da Shop ---- */
+.shop-series { margin-top: 56px; padding-top: 40px; border-top: 1px solid var(--border-light); position: relative; }
+.shop-series::before { content: ""; position: absolute; left: 0; top: -1px; width: 140px; height: 1px; background: linear-gradient(90deg, var(--accent), transparent); }
+.shop-head { display: grid; grid-template-columns: auto 1fr; gap: 12px 40px; align-items: end; margin-bottom: 24px; }
+.shop-title { font-family: var(--font-display); font-size: clamp(1.4rem, 3.4vw, 2.2rem); font-weight: 900; letter-spacing: 1px; text-transform: uppercase; line-height: 1; background: linear-gradient(180deg, var(--accent-hi) 0%, var(--accent) 50%, var(--accent-dim) 100%); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; }
+.shop-powered { font-family: var(--font-display); font-size: 0.62rem; font-weight: 700; letter-spacing: 2.5px; text-transform: uppercase; color: var(--text-muted); margin-top: 8px; }
+.shop-powered a { color: var(--chrome); text-decoration: none; padding: 3px 8px; box-shadow: inset 0 0 0 1px rgba(207,211,217,0.3); clip-path: polygon(5px 0, 100% 0, 100% calc(100% - 5px), calc(100% - 5px) 100%, 0 100%, 0 5px); }
+.shop-powered a:hover { color: var(--accent); }
+.shop-sub { color: var(--text-muted); max-width: 520px; margin: 0; }
+.shop-tag { display: inline-block; margin-left: 8px; font-family: var(--font-display); font-size: 0.56rem; font-weight: 800; letter-spacing: 2px; color: var(--chrome); vertical-align: middle; }
+@media (max-width: 768px) { .shop-head { grid-template-columns: 1fr; } }
+
 /* ---- Stage map ---- */
 .stage-map { margin-bottom: 32px; }
 .map-wrap { position: relative; overflow: hidden; --cut: 16px; --panel: #0d0c0b; }
@@ -593,6 +605,21 @@ a { color: inherit; }
             <button class="carousel-arrow disco-prev" aria-label="Previous">←</button>
             <div class="disco-track" id="videoTrack"></div>
             <button class="carousel-arrow disco-next" aria-label="Next">→</button>
+        </div>
+
+        <div class="shop-series fade-up" id="shopSeries" hidden>
+            <div class="shop-head">
+                <div>
+                    <div class="shop-title">Live At Da Shop</div>
+                    <div class="shop-powered">powered by <a href="https://lownerclothing.com" target="_blank" rel="noopener">LOWNER</a></div>
+                </div>
+                <p class="shop-sub">Drop Mic Series shot live at the Lowner Clothing store. <span class="live-count" id="shopCount"></span></p>
+            </div>
+            <div class="disco-carousel" data-carousel="shop">
+                <button class="carousel-arrow disco-prev" aria-label="Previous">←</button>
+                <div class="disco-track" id="shopTrack"></div>
+                <button class="carousel-arrow disco-next" aria-label="Next">→</button>
+            </div>
         </div>
     </div>
 </section>
@@ -977,10 +1004,15 @@ async function loadVideos(){
   const sec = document.getElementById("video");
   if (!VIDEOS.length) { sec.hidden = true; return; }
   const canEmbed = !/claude\.ai$/.test(location.hostname);
-  document.getElementById("videoTrack").innerHTML = VIDEOS.map(v=>`<div class="disco-card frame disco-slide video-card"><a class="vid" href="https://www.youtube.com/watch?v=${v.id}" target="_blank" rel="noopener" data-id="${v.id}" aria-label="Play ${esc(v.t)}"><img src="${v.thumb||`https://i.ytimg.com/vi/${v.id}/hqdefault.jpg`}" alt="" loading="lazy"><span class="vid-play"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></span></a><div class="disco-info"><div class="disco-artist">${esc(v.a)}</div><div class="disco-album">${esc(v.t)}</div><div class="disco-role">${esc(v.r||"Directed by Dynasty")}</div><div class="disco-stats"><a href="https://www.youtube.com/watch?v=${v.id}" target="_blank" rel="noopener">Watch on YouTube ↗</a></div></div></div>`).join("");
+  const shop = VIDEOS.filter(v=>v.series==="shop"), main = VIDEOS.filter(v=>v.series!=="shop");
+  const shopSec = document.getElementById("shopSeries");
+  if (shop.length) { shopSec.hidden = false; document.getElementById("shopCount").textContent = `${shop.length} episode${shop.length===1?"":"s"}`;
+    document.getElementById("shopTrack").innerHTML = shop.map(v=>`<div class="disco-card frame disco-slide video-card"><a class="vid" href="https://www.youtube.com/watch?v=${v.id}" target="_blank" rel="noopener" data-id="${v.id}" aria-label="Play ${esc(v.t)}"><img src="${v.thumb||`https://i.ytimg.com/vi/${v.id}/hqdefault.jpg`}" alt="" loading="lazy"><span class="vid-play"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></span></a><div class="disco-info"><div class="disco-artist">${esc(v.a)}<span class="shop-tag">LIVE AT DA SHOP</span></div><div class="disco-album">${esc(v.t)}</div><div class="disco-role">${esc(v.r||"Directed by Dynasty Digital")}</div><div class="disco-stats"><a href="https://www.youtube.com/watch?v=${v.id}" target="_blank" rel="noopener">Watch on YouTube ↗</a></div></div></div>`).join("");
+    initDisco(document.querySelector('[data-carousel="shop"]')); }
+  document.getElementById("videoTrack").innerHTML = main.map(v=>`<div class="disco-card frame disco-slide video-card"><a class="vid" href="https://www.youtube.com/watch?v=${v.id}" target="_blank" rel="noopener" data-id="${v.id}" aria-label="Play ${esc(v.t)}"><img src="${v.thumb||`https://i.ytimg.com/vi/${v.id}/hqdefault.jpg`}" alt="" loading="lazy"><span class="vid-play"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></span></a><div class="disco-info"><div class="disco-artist">${esc(v.a)}</div><div class="disco-album">${esc(v.t)}</div><div class="disco-role">${esc(v.r||"Directed by Dynasty")}</div><div class="disco-stats"><a href="https://www.youtube.com/watch?v=${v.id}" target="_blank" rel="noopener">Watch on YouTube ↗</a></div></div></div>`).join("");
   if (canEmbed) document.querySelectorAll(".vid").forEach(a=>a.addEventListener("click",e=>{ e.preventDefault(); const f=document.createElement("iframe"); f.src=`https://www.youtube-nocookie.com/embed/${a.dataset.id}?autoplay=1&rel=0`; f.allow="autoplay; encrypted-media; picture-in-picture"; f.allowFullscreen=true; f.title=a.getAttribute("aria-label"); a.replaceWith(f); f.className="vid-frame"; }));
   initDisco(document.querySelector('[data-carousel="video"]'));
-  document.getElementById("videoCount").textContent = `${VIDEOS.length} video${VIDEOS.length===1?"":"s"}`;
+  document.getElementById("videoCount").textContent = `${main.length} video${main.length===1?"":"s"}`;
 }
 loadVideos();
 
