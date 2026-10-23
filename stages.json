@@ -1,0 +1,1103 @@
+{
+"updatedAt": "2026-10-22",
+"note": "d = ISO date or start/end; t = Festival|Tour|Arena|TV|Radio|Club|Award show; a = artist; r = role; u = unverified; up = upcoming (set by the daily scan); hold = not shown until Dynasty confirms; s = source url",
+"items": [
+{
+"d": "2021-07-16",
+"n": "Jimmy Kimmel Live!",
+"w": "ABC · Los Angeles, CA",
+"t": "TV",
+"a": "BigWalkDog",
+"r": "Musical guest w/ Gucci Mane",
+"s": "https://www.metacritic.com/tv/jimmy-kimmel-live/season-19/episode-161-nick-krollseth-rogenwinston-dukegucci-mane-big-walk-dog/"
+},
+{
+"d": "2021-07-25",
+"n": "Rolling Loud Miami 2021",
+"w": "Hard Rock Stadium · Miami Gardens, FL",
+"t": "Festival",
+"a": "BigWalkDog",
+"r": "Guest w/ 1017",
+"u": true,
+"s": "https://www.xxlmag.com/bigwalkdog-interview-the-break/"
+},
+{
+"d": "2023-10-17",
+"n": "1017 Day — Gucci Mane “Breath of Fresh Air” show",
+"w": "The Tabernacle · Atlanta, GA",
+"t": "Club",
+"a": "BigWalkDog",
+"r": "Support for Gucci Mane",
+"s": "https://www.xxlmag.com/gucci-mane-1017-day-t-i-quavo-latto/"
+},
+{
+"d": "2024-03-31",
+"n": "BigWalkDog Pool Party",
+"w": "Austin, TX",
+"t": "Club",
+"a": "BigWalkDog",
+"r": "Headliner",
+"s": "https://www.eventbrite.com/e/big-walk-dog-pool-party-tickets-865658597167"
+},
+{
+"d": "2024-06-29",
+"n": "Annual FreakNIK 2024 w/ Big30",
+"w": "Pageland, SC",
+"t": "Club",
+"a": "BigWalkDog",
+"r": "Headliner",
+"s": "https://www.eventbrite.com/e/big-30-bigwalkdog-performing-live-annual-freaknik-2024-tickets-921217204457"
+},
+{
+"d": "2022-08-19",
+"n": "Arena show",
+"w": "VyStar Veterans Memorial Arena · Jacksonville, FL",
+"t": "Arena",
+"a": "GloRilla",
+"r": "Lineup",
+"u": true,
+"s": "https://www.setlist.fm/setlists/glorilla-1bff7124.html?page=14"
+},
+{
+"d": "2022-08-26",
+"n": "Z107.9 Summer Jam 2022",
+"w": "Rocket Mortgage FieldHouse · Cleveland, OH",
+"t": "Radio",
+"a": "GloRilla",
+"r": "Lineup",
+"s": "https://www.setlist.fm/setlists/glorilla-1bff7124.html?page=14"
+},
+{
+"d": "2022-09-03",
+"n": "Made in America 2022",
+"w": "Benjamin Franklin Parkway · Philadelphia, PA",
+"t": "Festival",
+"a": "GloRilla",
+"r": "Lineup",
+"s": "https://www.setlist.fm/setlists/glorilla-1bff7124.html?page=13"
+},
+{
+"d": "2022-09-24",
+"n": "Rolling Loud New York 2022",
+"w": "Citi Field · Queens, NY",
+"t": "Festival",
+"a": "GloRilla",
+"r": "Lineup",
+"s": "https://www.setlist.fm/setlists/glorilla-1bff7124.html?page=13"
+},
+{
+"d": "2022-10-05",
+"n": "Morgan State University Homecoming",
+"w": "Hill Field House · Baltimore, MD",
+"t": "Arena",
+"a": "GloRilla",
+"r": "Headliner",
+"s": "https://www.concertarchives.org/bands/glorilla?year=2022"
+},
+{
+"d": "2022-10-08",
+"n": "Enmarket Arena w/ NoCap, Nardo Wick",
+"w": "Savannah, GA",
+"t": "Arena",
+"a": "GloRilla",
+"r": "Lineup",
+"s": "https://www.concertarchives.org/bands/glorilla?year=2022"
+},
+{
+"d": "2022-10-28",
+"n": "Power 99 Powerhouse 2022",
+"w": "Wells Fargo Center · Philadelphia, PA",
+"t": "Radio",
+"a": "GloRilla",
+"r": "Guest",
+"u": true,
+"s": "https://www.setlist.fm/setlists/glorilla-1bff7124.html?page=13"
+},
+{
+"d": "2022-10-29",
+"n": "NC A&T GHOE Homecoming Concert w/ Lil Baby, Nardo Wick, Chlöe",
+"w": "Greensboro Coliseum · Greensboro, NC",
+"t": "Arena",
+"a": "GloRilla",
+"r": "Lineup",
+"s": "https://blackamericaweb.com/2022/10/31/chloe-bailey-ncat-ghoe-homecoming/"
+},
+{
+"d": "2022-11-18",
+"n": "Arena show",
+"w": "Colonial Life Arena · Columbia, SC",
+"t": "Arena",
+"a": "GloRilla",
+"r": "Lineup",
+"u": true,
+"s": "https://www.concertarchives.org/bands/glorilla?year=2022"
+},
+{
+"d": "2022-12-01",
+"n": "A Boogie wit da Hoodie at Madison Square Garden",
+"w": "Madison Square Garden · New York, NY",
+"t": "Arena",
+"a": "GloRilla",
+"r": "Guest",
+"s": "https://www.concertarchives.org/bands/glorilla?year=2022"
+},
+{
+"d": "2022-12-02",
+"n": "Moneybagg Yo & Friends w/ Polo G, Nardo Wick, Tink",
+"w": "Little Caesars Arena · Detroit, MI",
+"t": "Arena",
+"a": "GloRilla",
+"r": "Lineup",
+"s": "https://www.concertarchives.org/bands/glorilla?year=2022"
+},
+{
+"d": "2022-12-03",
+"n": "WGCI Big Jam 2022",
+"w": "United Center · Chicago, IL",
+"t": "Radio",
+"a": "GloRilla",
+"r": "Lineup",
+"s": "https://www.setlist.fm/setlists/glorilla-1bff7124.html?page=13"
+},
+{
+"d": "2022-12-09",
+"n": "Lil Baby & Friends",
+"w": "State Farm Arena · Atlanta, GA",
+"t": "Arena",
+"a": "GloRilla",
+"r": "Guest",
+"s": "https://www.concertarchives.org/bands/glorilla?year=2022"
+},
+{
+"d": "2023-01-27/2023-03-05",
+"n": "Anyways, Life's Great Tour — first headlining tour",
+"w": "16 US dates · Charlotte → DC → Rochester",
+"t": "Tour",
+"a": "GloRilla",
+"r": "Headliner",
+"s": "https://www.thefader.com/2022/11/17/glorilla-2023-tour-dates"
+},
+{
+"d": "2023-04-02",
+"n": "Dreamville Festival 2023",
+"w": "Dorothea Dix Park · Raleigh, NC",
+"t": "Festival",
+"a": "GloRilla",
+"r": "Lineup",
+"s": "https://clture.org/dreamville-fest-2023/"
+},
+{
+"d": "2023-04-06",
+"n": "Wild 'N Out (S19 E2)",
+"w": "VH1",
+"t": "TV",
+"a": "GloRilla",
+"r": "Musical guest",
+"s": "https://www.tvmaze.com/people/377975/glorilla"
+},
+{
+"d": "2023-04-16",
+"n": "Coachella 2023 — Weekend 1",
+"w": "Coachella Stage · Indio, CA",
+"t": "Festival",
+"a": "GloRilla",
+"r": "Lineup",
+"s": "https://www.setlist.fm/setlists/glorilla-1bff7124.html?page=12"
+},
+{
+"d": "2023-04-18",
+"n": "Jimmy Kimmel Live!",
+"w": "ABC · Los Angeles, CA",
+"t": "TV",
+"a": "GloRilla",
+"r": "Musical guest",
+"s": "https://www.tvmaze.com/characters/1102653/jimmy-kimmel-live-glorilla"
+},
+{
+"d": "2023-04-23",
+"n": "Coachella 2023 — Weekend 2",
+"w": "Indio, CA",
+"t": "Festival",
+"a": "GloRilla",
+"r": "Lineup",
+"s": "https://www.setlist.fm/setlists/glorilla-1bff7124.html?page=12"
+},
+{
+"d": "2023-05-06",
+"n": "Beale Street Music Festival 2023",
+"w": "Tom Lee Park · Memphis, TN",
+"t": "Festival",
+"a": "GloRilla",
+"r": "Lineup",
+"s": "https://www.setlist.fm/setlists/glorilla-1bff7124.html?page=12"
+},
+{
+"d": "2023-05-20",
+"n": "Hangout Music Festival 2023",
+"w": "Gulf Shores, AL",
+"t": "Festival",
+"a": "GloRilla",
+"r": "Lineup",
+"u": true,
+"s": "https://www.concertarchives.org/bands/glorilla"
+},
+{
+"d": "2023-06-03",
+"n": "Roots Picnic 2023",
+"w": "The Mann · Philadelphia, PA",
+"t": "Festival",
+"a": "GloRilla",
+"r": "Lineup",
+"s": "https://www.jambase.com/festival/roots-picnic-2023"
+},
+{
+"d": "2023-06-04",
+"n": "Hot 97 Summer Jam 2023",
+"w": "UBS Arena · Elmont, NY",
+"t": "Radio",
+"a": "GloRilla",
+"r": "Lineup",
+"s": "https://www.brooklynvegan.com/summer-jam-gets-new-ny-location-cardi-b-ice-spice-glorilla-more-on-2023-lineup/"
+},
+{
+"d": "2023-06-17",
+"n": "Hot 107.9 Birthday Bash ATL 2023",
+"w": "State Farm Arena · Atlanta, GA",
+"t": "Radio",
+"a": "GloRilla",
+"r": "Headliner",
+"s": "https://www.setlist.fm/setlists/glorilla-1bff7124.html?page=12"
+},
+{
+"d": "2023-06-23",
+"n": "Lyrical Lemonade Summer Smash 2023",
+"w": "SeatGeek Stadium · Bridgeview, IL",
+"t": "Festival",
+"a": "GloRilla",
+"r": "Lineup",
+"s": "https://www.setlist.fm/setlists/glorilla-1bff7124.html?page=12"
+},
+{
+"d": "2023-06-29",
+"n": "splash! Festival 2023",
+"w": "Ferropolis · Gräfenhainichen, Germany",
+"t": "Festival",
+"a": "GloRilla",
+"r": "Lineup",
+"s": "https://www.setlist.fm/setlists/glorilla-1bff7124.html?page=12"
+},
+{
+"d": "2023-06-30",
+"n": "Roskilde Festival 2023",
+"w": "Roskilde, Denmark",
+"t": "Festival",
+"a": "GloRilla",
+"r": "Lineup",
+"s": "https://www.setlist.fm/setlists/glorilla-1bff7124.html?page=12"
+},
+{
+"d": "2023-07-01",
+"n": "Rolling Loud Rotterdam 2023",
+"w": "Ahoy · Rotterdam, Netherlands",
+"t": "Festival",
+"a": "GloRilla",
+"r": "Lineup",
+"s": "https://www.setlist.fm/setlists/glorilla-1bff7124.html?page=12"
+},
+{
+"d": "2023-07-06",
+"n": "Rolling Loud Portugal 2023",
+"w": "Praia da Rocha · Portimão, Portugal",
+"t": "Festival",
+"a": "GloRilla",
+"r": "Lineup",
+"s": "https://www.setlist.fm/setlists/glorilla-1bff7124.html?page=11"
+},
+{
+"d": "2023-07-07",
+"n": "Openair Frauenfeld 2023",
+"w": "Frauenfeld, Switzerland",
+"t": "Festival",
+"a": "GloRilla",
+"r": "Lineup",
+"s": "https://www.setlist.fm/setlists/glorilla-1bff7124.html?page=11"
+},
+{
+"d": "2023-07-08",
+"n": "Rolling Loud Germany 2023",
+"w": "Messe München · Munich, Germany",
+"t": "Festival",
+"a": "GloRilla",
+"r": "Lineup",
+"s": "https://www.setlist.fm/setlists/glorilla-1bff7124.html?page=11"
+},
+{
+"d": "2023-07-09",
+"n": "Wireless Festival 2023",
+"w": "Finsbury Park · London, UK",
+"t": "Festival",
+"a": "GloRilla",
+"r": "Lineup",
+"s": "https://www.setlist.fm/setlists/glorilla-1bff7124.html?page=11"
+},
+{
+"d": "2023-07-16",
+"n": "Broccoli City Festival 2023",
+"w": "RFK Stadium grounds · Washington, DC",
+"t": "Festival",
+"a": "GloRilla",
+"r": "Lineup",
+"s": "https://www.setlist.fm/setlist/glorilla/2023/rfk-stadium-grounds-washington-dc-4ba757ca.html"
+},
+{
+"d": "2023-07-22",
+"n": "Rolling Loud Miami 2023",
+"w": "Hard Rock Stadium · Miami Gardens, FL",
+"t": "Festival",
+"a": "GloRilla",
+"r": "Lineup",
+"s": "https://www.setlist.fm/setlist/glorilla/2023/hard-rock-stadium-miami-gardens-fl-3ba4ac24.html"
+},
+{
+"d": "2023-07-26/2023-09-22",
+"n": "Lil Baby — It's Only Us Tour",
+"w": "24 US arenas · w/ The Kid LAROI",
+"t": "Tour",
+"a": "GloRilla",
+"r": "Support for Lil Baby",
+"s": "https://www.thefader.com/2023/04/11/lil-baby-announces-2023-north-american-tour-dates-with-glorilla"
+},
+{
+"d": "2023-09-17",
+"n": "Music Midtown 2023",
+"w": "Piedmont Park · Atlanta, GA",
+"t": "Festival",
+"a": "GloRilla",
+"r": "Lineup",
+"s": "https://www.setlist.fm/setlists/glorilla-1bff7124.html?page=9"
+},
+{
+"d": "2023-10-08",
+"n": "Austin City Limits 2023 — Weekend 1",
+"w": "Zilker Park · Austin, TX",
+"t": "Festival",
+"a": "GloRilla",
+"r": "Lineup",
+"s": "https://www.setlist.fm/setlists/glorilla-1bff7124.html?page=8"
+},
+{
+"d": "2023-10-13",
+"n": "Austin City Limits 2023 — Weekend 2",
+"w": "Zilker Park · Austin, TX",
+"t": "Festival",
+"a": "GloRilla",
+"r": "Lineup",
+"s": "https://www.setlist.fm/setlists/glorilla-1bff7124.html?page=8"
+},
+{
+"d": "2023-11-22/2023-12-03",
+"n": "CMG Gangsta Art Tour — Yo Gotti, Moneybagg Yo & CMG",
+"w": "4 arenas · Fort Worth, Atlanta, DC, Charlotte",
+"t": "Tour",
+"a": "GloRilla",
+"r": "CMG roster",
+"s": "https://www.complex.com/music/a/markelibert/yo-gotti-glorilla-cmg-family-gangsta-art-arena-tour-dates"
+},
+{
+"d": "2023-11-25",
+"n": "DaBaby / GloRilla / NLE Choppa",
+"w": "Boardwalk Hall · Atlantic City, NJ",
+"t": "Arena",
+"a": "GloRilla",
+"r": "Lineup",
+"s": "https://www.concertarchives.org/bands/glorilla?year=2023"
+},
+{
+"d": "2024-01-07",
+"n": "LIV Nightclub",
+"w": "Miami Beach, FL",
+"t": "Club",
+"a": "GloRilla",
+"r": "Headliner",
+"u": true,
+"s": "https://www.songkick.com/artists/10212072-glorilla/gigography?page=2"
+},
+{
+"d": "2024-02-17",
+"n": "NBA All-Star Weekend show w/ 42 Dugg",
+"w": "Indianapolis, IN",
+"t": "Club",
+"a": "GloRilla",
+"r": "Headliner",
+"u": true,
+"s": "https://www.songkick.com/artists/10212072-glorilla/gigography?page=2"
+},
+{
+"d": "2024-03-03",
+"n": "Bad vs. Wild — Baddies vs. Wild 'N Out",
+"w": "Zeus Network",
+"t": "TV",
+"a": "GloRilla",
+"r": "Musical guest",
+"s": "https://thetvdb.com/series/bad-vs-wild/episodes/10354717"
+},
+{
+"d": "2024-04-05",
+"n": "Barclays Center show w/ 50 Cent, Lil Baby",
+"w": "Brooklyn, NY",
+"t": "Arena",
+"a": "GloRilla",
+"r": "Lineup",
+"u": true,
+"s": "https://www.songkick.com/artists/10212072-glorilla/gigography?page=2"
+},
+{
+"d": "2024-04-20",
+"n": "Boombox Spring Fest w/ Moneybagg Yo, Boosie, Hunxho, Rob49",
+"w": "Atrium Health Amphitheater · Macon, GA",
+"t": "Festival",
+"a": "GloRilla",
+"r": "Lineup",
+"s": "https://wgxa.tv/news/local/atrium-health-amphitheater-to-host-boombox-fest-this-weekend"
+},
+{
+"d": "2024-05-10",
+"n": "GloRilla w/ Plies",
+"w": "Township Auditorium · Columbia, SC",
+"t": "Arena",
+"a": "GloRilla",
+"r": "Headliner",
+"u": true,
+"s": "https://www.songkick.com/artists/10212072-glorilla/gigography?page=2"
+},
+{
+"d": "2024-05-14/2024-07-03",
+"n": "Megan Thee Stallion — Hot Girl Summer Tour",
+"w": "25 North American arenas · nightly “Wanna Be” duet",
+"t": "Tour",
+"a": "GloRilla",
+"r": "Support for Megan Thee Stallion",
+"s": "https://en.wikipedia.org/wiki/Hot_Girl_Summer_Tour"
+},
+{
+"d": "2024-05-21",
+"n": "Hot Girl Summer Tour — Madison Square Garden (Cardi B surprise)",
+"w": "Madison Square Garden · New York, NY",
+"t": "Arena",
+"a": "GloRilla",
+"r": "Support",
+"s": "https://ca.billboard.com/music/rb-hip-hop/megan-thee-stallion-hot-girl-summer-tour-nyc-recap-cardi-b-1235689734"
+},
+{
+"d": "2024-05-30",
+"n": "Hot Girl Summer Tour — FedExForum hometown show (sold out)",
+"w": "Memphis, TN",
+"t": "Arena",
+"a": "GloRilla",
+"r": "Support",
+"s": "https://www.aol.com/megan-thee-stallion-glorilla-show-111402758.html"
+},
+{
+"d": "2024-06-02",
+"n": "Hot Girl Summer Tour — State Farm Arena",
+"w": "Atlanta, GA",
+"t": "Arena",
+"a": "GloRilla",
+"r": "Support",
+"s": "https://www.concertarchives.org/aubrey-mathewson/bands/glorilla"
+},
+{
+"d": "2024-09-01",
+"n": "901 Day — surprise Beale Street performance, key to the city",
+"w": "Memphis, TN",
+"t": "Arena",
+"a": "GloRilla",
+"r": "Guest",
+"s": "https://www.fox13memphis.com/news/memphis-glorilla-gets-key-to-the-city-surprises-fans-at-901-day/article_aedfcbb8-6924-11ef-822c-2f2fb526436d.html"
+},
+{
+"d": "2024-10-09",
+"n": "Virginia State University Homecoming w/ BossMan Dlow",
+"w": "VSU Multi-Purpose Center · Petersburg, VA",
+"t": "Arena",
+"a": "GloRilla",
+"r": "Headliner",
+"s": "https://vsumpc.com/events/vsu-announces-2024-homecoming-concert-artist-glorilla-as-the-headliner-and-bossman-dlow"
+},
+{
+"d": "2024-10-12",
+"n": "Alabama A&M Homecoming Concert w/ Boosie, Big Boogie",
+"w": "Von Braun Center · Huntsville, AL",
+"t": "Arena",
+"a": "GloRilla",
+"r": "Headliner",
+"s": "https://www.aamu.edu/calendar/index.php?eID=4059"
+},
+{
+"d": "2024-10-18",
+"n": "GloRilla w/ BossMan Dlow & 41",
+"w": "Amica Mutual Pavilion · Providence, RI",
+"t": "Arena",
+"a": "GloRilla",
+"r": "Headliner",
+"s": "https://www.shazam.com/en-us/event/313a46df-df00-40b5-be32-5368ed6f5c96"
+},
+{
+"d": "2024-10-27",
+"n": "One Musicfest 2024 (T-Pain surprise)",
+"w": "Piedmont Park · Atlanta, GA",
+"t": "Festival",
+"a": "GloRilla",
+"r": "Lineup",
+"s": "https://voxatl.org/one-music-fest-2024-was-packed-with-dynamic-hip-hop-and-rb-performances-review/"
+},
+{
+"d": "2024-10-29",
+"n": "GloRilla Fall Fest w/ Toosii, Cash Cobain, NoCap, 42 Dugg",
+"w": "Hampton Coliseum · Hampton, VA",
+"t": "Arena",
+"a": "GloRilla",
+"r": "Headliner",
+"s": "https://www.jambase.com/show/glorilla-hampton-coliseum-20241029"
+},
+{
+"d": "2024-10-30",
+"n": "Jackson State University “Thee House Party” Homecoming",
+"w": "Jackson, MS",
+"t": "Arena",
+"a": "GloRilla",
+"r": "Headliner",
+"s": "https://hbcusports.com/2024/10/12/glorilla-to-headline-jackson-state-entertainment-homecoming-festivities/"
+},
+{
+"d": "2024-10-31",
+"n": "FAMU Homecoming / SiriusXM HBCU Pop Out",
+"w": "Al Lawson Center · Tallahassee, FL",
+"t": "Arena",
+"a": "GloRilla",
+"r": "Headliner",
+"s": "https://www.siriusxm.com/blog/homecoming-takeover-hbcu-pop-out"
+},
+{
+"d": "2024-11-01",
+"n": "“When We Vote We Win” rally w/ Cardi B, Flo Milli",
+"w": "Wisconsin State Fair Park · Milwaukee, WI",
+"t": "Arena",
+"a": "GloRilla",
+"r": "Performer",
+"s": "https://cbs58.com/news/im-with-kamala-cardi-b-glorilla-headline-harris-rally-in-milwaukee"
+},
+{
+"d": "2024-11-05",
+"n": "#iVoted Concerts Election Night w/ Moneybagg Yo",
+"w": "Toyota Arena · Ontario, CA",
+"t": "Arena",
+"a": "GloRilla",
+"r": "Headliner",
+"s": "https://floodmagazine.com/179591/chromeo-cake-free-ivoted-concerts/"
+},
+{
+"d": "2024-11-13",
+"n": "Tinder Swipe Off concert w/ Gunna",
+"w": "Liacouras Center · Philadelphia, PA",
+"t": "Arena",
+"a": "GloRilla",
+"r": "Lineup",
+"s": "https://temple-news.com/?p=132102"
+},
+{
+"d": "2024-12-07",
+"n": "WGCI Big Jam 2024",
+"w": "Wintrust Arena · Chicago, IL",
+"t": "Radio",
+"a": "GloRilla",
+"r": "Lineup",
+"s": "https://www.dailyherald.com/?p=1311509"
+},
+{
+"d": "2024-12-12",
+"n": "TDE Holiday Concert (surprise guest after Kendrick Lamar)",
+"w": "Nickerson Gardens · Los Angeles, CA",
+"t": "Arena",
+"a": "GloRilla",
+"r": "Guest",
+"s": "https://music.mxdwn.com/2024/12/16/los-angeles/kendrick-lamar-sza-glorilla-more-perform-at-tdes-christmas-concert-in-watts/"
+},
+{
+"d": "2024-12-19",
+"n": "iHeartRadio Jingle Ball 2024",
+"w": "State Farm Arena · Atlanta, GA",
+"t": "Radio",
+"a": "GloRilla",
+"r": "Lineup",
+"s": "https://radiobigboy.com/content/2024-12-20-ti-glorilla-sexyy-red-more-perform-at-jingle-ball-in-atlanta"
+},
+{
+"d": "2025-01-19",
+"n": "97.9 WJLB The Big Show",
+"w": "Little Caesars Arena · Detroit, MI",
+"t": "Radio",
+"a": "GloRilla",
+"r": "Lineup",
+"s": "https://www.313presents.com/news/detail/979-wjlb-new-day-entertainment-leaf-bud-and-budweiser-announce-the-big-show-coming-to-little-caesars-arena-january-19"
+},
+{
+"d": "2025-02-01",
+"n": "Honda Battle of the Bands — grand finale",
+"w": "SoFi Stadium · Inglewood, CA",
+"t": "Arena",
+"a": "GloRilla",
+"r": "Headliner",
+"s": "https://hondanews.com/en-US/releases/release-a0290fb377b9a07ba1686b65910165ac-grammy-nominated-superstar-glorilla-to-perform-at-2025-honda-battle-of-the-bands"
+},
+{
+"d": "2025-02-20",
+"n": "Power 98.3 Powerhouse 2025 w/ Sexyy Red",
+"w": "Mortgage Matchup Center · Phoenix, AZ",
+"t": "Radio",
+"a": "GloRilla",
+"r": "Headliner",
+"s": "https://mortgagematchupcenter.com/news/power-98-3-presents-powerhouse-2025/"
+},
+{
+"d": "2025-03-05/2025-04-16",
+"n": "Glorious Tour — debut headlining US tour",
+"w": "22 dates · w/ Real Boston Richey, Queen Key",
+"t": "Tour",
+"a": "GloRilla",
+"r": "Headliner",
+"s": "https://en.wikipedia.org/wiki/Glorious_Tour"
+},
+{
+"d": "2025-04-03",
+"n": "Penn State spring concert (Waka Flocka Flame opened)",
+"w": "Bryce Jordan Center · University Park, PA",
+"t": "Arena",
+"a": "GloRilla",
+"r": "Headliner",
+"s": "https://www.psucollegian.com/culture_lifestyle/glorilla-headlines-first-ever-spa-bryce-jordan-center-concert/article_94d909ce-f129-4633-8cb3-af2ba6bb3d7a.html"
+},
+{
+"d": "2025-04-06",
+"n": "Dreamville Festival 2025 — final edition",
+"w": "Dorothea Dix Park · Raleigh, NC",
+"t": "Festival",
+"a": "GloRilla",
+"r": "Lineup",
+"s": "https://www.axios.com/local/raleigh/2025/02/06/glorilla-rapper-perform-dreamville-festival-2025"
+},
+{
+"d": "2025-04-11",
+"n": "Coachella 2025 — Weekend 1",
+"w": "Empire Polo Club · Indio, CA",
+"t": "Festival",
+"a": "GloRilla",
+"r": "Lineup",
+"s": "https://en.wikipedia.org/wiki/Coachella_2025"
+},
+{
+"d": "2025-04-18",
+"n": "Coachella 2025 — Weekend 2",
+"w": "Empire Polo Club · Indio, CA",
+"t": "Festival",
+"a": "GloRilla",
+"r": "Lineup",
+"s": "https://en.wikipedia.org/wiki/Coachella_2025"
+},
+{
+"d": "2025-05-31",
+"n": "Roots Picnic 2025",
+"w": "The Mann · Philadelphia, PA",
+"t": "Festival",
+"a": "GloRilla",
+"r": "Lineup",
+"s": "https://www.okayplayer.com/glorilla-clipse-and-lenny-kravitz-rock-the-2025-roots-picnic/796280"
+},
+{
+"d": "2025-06-07",
+"n": "BET Experience 2025 — Fan Fest",
+"w": "Los Angeles, CA",
+"t": "Festival",
+"a": "GloRilla",
+"r": "Headliner",
+"s": "https://www.paramountpressexpress.com/bet/shows/bet-experience-2025/releases/?view=111435-bet-experience-presented-by-sheamoisture-announces-fan-fest-headliners-glorilla-to-perform-saturday-june-7-with-mustard-performing-sunday-june-8"
+},
+{
+"d": "2025-06-13",
+"n": "The Momentary — outdoor headline show",
+"w": "Bentonville, AR",
+"t": "Arena",
+"a": "GloRilla",
+"r": "Headliner",
+"s": "https://www.jambase.com/band/glorilla/setlists/2025"
+},
+{
+"d": "2025-06-14",
+"n": "T-Pain's Wiscansin Fest — “TGIF” cameo",
+"w": "The Rave · Milwaukee, WI",
+"t": "Festival",
+"a": "GloRilla",
+"r": "Guest",
+"u": true,
+"s": "https://theearlyregistration.com/2025/06/15/photos-t-pains-wiscansin-fest-returned-to-milwaukee-bigger-than-ever/"
+},
+{
+"d": "2025-06-20",
+"n": "Hot 97 Summer Jam 2025",
+"w": "Prudential Center · Newark, NJ",
+"t": "Radio",
+"a": "GloRilla",
+"r": "Co-headliner",
+"s": "https://www.brooklynvegan.com/hot-97-summer-jam-2025-lineup-a-boogie-gunna-glorilla-ja-rule-more/"
+},
+{
+"d": "2025-06-21",
+"n": "Hot 107.9 Birthday Bash ATL 2025 — GloRilla & Friends",
+"w": "State Farm Arena · Atlanta, GA",
+"t": "Radio",
+"a": "GloRilla",
+"r": "Headliner",
+"s": "https://hotspotatl.com/5981372/birthday-bash-atl-2025-lineup/"
+},
+{
+"d": "2025-06-27",
+"n": "Hot 100.9 Summer Jam Indianapolis w/ BossMan Dlow",
+"w": "Gainbridge Fieldhouse · Indianapolis, IN",
+"t": "Radio",
+"a": "GloRilla",
+"r": "Co-headliner",
+"s": "https://www.gainbridgefieldhouse.com/events/detail/summer-jam-with-glorilla-bossman-dlow-and-more"
+},
+{
+"d": "2025-07-04",
+"n": "ESSENCE Festival of Culture 2025",
+"w": "Caesars Superdome · New Orleans, LA",
+"t": "Festival",
+"a": "GloRilla",
+"r": "Lineup",
+"s": "https://www.setlist.fm/setlists/glorilla-1bff7124.html"
+},
+{
+"d": "2025-07-19",
+"n": "WNBA All-Star Game — halftime show",
+"w": "Gainbridge Fieldhouse · Indianapolis, IN",
+"t": "Arena",
+"a": "GloRilla",
+"r": "Headliner",
+"s": "https://www.wnba.com/news/glorilla-headlines-2025-att-all-star-game-halftime-show"
+},
+{
+"d": "2025-07-25",
+"n": "GloRilla & Friends — 1st Annual Glo Bash w/ Sexyy Red, BossMan Dlow",
+"w": "FedExForum · Memphis, TN",
+"t": "Arena",
+"a": "GloRilla",
+"r": "Headliner",
+"s": "https://www.vibe.com/news/events/glorilla-inaugural-glo-bash-memphis-concert-1235066182/"
+},
+{
+"d": "2025-08-16",
+"n": "Level One",
+"w": "Horseshoe Casino · Baltimore, MD",
+"t": "Club",
+"a": "GloRilla",
+"r": "Headliner",
+"s": "https://www.jambase.com/band/glorilla/setlists/2025"
+},
+{
+"d": "2025-08-30",
+"n": "BossMan Dlow “Sharks in the Water” birthday concert",
+"w": "Addition Financial Arena · Orlando, FL",
+"t": "Arena",
+"a": "GloRilla",
+"r": "Lineup",
+"s": "https://www.orlandoweekly.com/music/florida-rapper-bossman-dlow-celebrates-his-birthday-at-addition-financial-arena-in-high-style-this-weekend-40280017/"
+},
+{
+"d": "2025-09-06",
+"n": "GloRilla Live w/ Moneybagg Yo & Skilla Baby",
+"w": "Wolstein Center · Cleveland, OH",
+"t": "Arena",
+"a": "GloRilla",
+"r": "Headliner",
+"s": "https://www.jambase.com/show/glorilla-wolstein-center-20250906"
+},
+{
+"d": "2025-09-12",
+"n": "Z107.9 Summer Jam 2025 w/ BigXthaPlug, Kash Doll, Jacquees",
+"w": "Rocket Arena · Cleveland, OH",
+"t": "Radio",
+"a": "GloRilla",
+"r": "Headliner",
+"s": "https://www.rocketarena.com/events/detail/summer-jam-250912"
+},
+{
+"d": "2025-09-20",
+"n": "iHeartRadio Music Festival 2025 — Night 2 closer",
+"w": "T-Mobile Arena · Las Vegas, NV",
+"t": "Festival",
+"a": "GloRilla",
+"r": "Lineup",
+"s": "https://www.iheartmedia.com/press/2025-iheartradio-music-festival-presented-capital-one-returned-las-vegas-iconic-lineup"
+},
+{
+"d": "2025-10-11",
+"n": "NC A&T GHOE Homecoming w/ PARTYNEXTDOOR",
+"w": "First Horizon Coliseum · Greensboro, NC",
+"t": "Arena",
+"a": "GloRilla",
+"r": "Co-headliner",
+"s": "https://blog.eventnoire.com/glorilla-partynextdoor-set-to-headline-ncat-homecoming-concert/"
+},
+{
+"d": "2025-10-18",
+"n": "Wynn Records “Trick or Trap” w/ Hunxho, Sheck Wes, KenTheMan",
+"w": "Knoxville, TN",
+"t": "Arena",
+"a": "GloRilla",
+"r": "Headliner",
+"s": "https://www.livenation.com/event/G5dIZbYcFIg7b/wynn-records-presents-trick-or-trap-ft-glorilla"
+},
+{
+"d": "2025-11-22",
+"n": "Sexyy Red & Friends w/ G Herbo, Kodak Black, Rob49",
+"w": "Enterprise Center · St. Louis, MO",
+"t": "Arena",
+"a": "GloRilla",
+"r": "Lineup",
+"s": "https://hip-hopvibe.com/news/sexyy-red-hosts-headlining-concert-in-st-louis-with-glorilla-g-herbo-pluto-and-more/"
+},
+{
+"d": "2025-11-23",
+"n": "Camp Flog Gnaw Carnival 2025 — Gnaw Stage",
+"w": "Dodger Stadium · Los Angeles, CA",
+"t": "Festival",
+"a": "GloRilla",
+"r": "Lineup",
+"s": "https://en.wikipedia.org/wiki/Camp_Flog_Gnaw_Carnival"
+},
+{
+"d": "2025-11-29",
+"n": "GloRilla & 2 Chainz — Bayou Classic weekend",
+"w": "The Metropolitan · New Orleans, LA",
+"t": "Club",
+"a": "GloRilla",
+"r": "Headliner",
+"u": true,
+"s": "https://www.concertarchives.org/bands/glorilla"
+},
+{
+"d": "2025-12-06",
+"n": "WGCI Big Jam 2025 w/ Sexyy Red, Tink, BossMan Dlow",
+"w": "United Center · Chicago, IL",
+"t": "Radio",
+"a": "GloRilla",
+"r": "Headliner",
+"s": "https://www.setlist.fm/festival/2025/wgci-1075-big-jam-2025-13d51d49.html"
+},
+{
+"d": "2026-01-17",
+"n": "GMO SONIC 2026 w/ Marshmello, Swedish House Mafia, Steve Aoki",
+"w": "Makuhari Messe · Tokyo, Japan",
+"t": "Festival",
+"a": "GloRilla",
+"r": "Lineup",
+"s": "https://www.jambase.com/festival/gmo-sonic-2026"
+},
+{
+"d": "2026-03-07",
+"n": "Jazz in the Gardens Music Fest 2026",
+"w": "Hard Rock Stadium · Miami Gardens, FL",
+"t": "Festival",
+"a": "GloRilla",
+"r": "Lineup",
+"s": "https://soulbounce.com/2025/12/jazz-in-the-gardens-music-fest-2026-news-lineup/"
+},
+{
+"d": "2026-03-26",
+"n": "HBCU AwareFest 2026 w/ Jill Scott, John Legend, Metro Boomin, Jeezy",
+"w": "State Farm Arena · Atlanta, GA",
+"t": "Arena",
+"a": "GloRilla",
+"r": "Lineup",
+"s": "https://www.statefarmarena.com/events/detail/hbcu-awarefest"
+},
+{
+"d": "2026-04-29",
+"n": "MTSU spring concert w/ BKtherula",
+"w": "Murphy Center · Murfreesboro, TN",
+"t": "Arena",
+"a": "GloRilla",
+"r": "Headliner",
+"s": "https://www.concertarchives.org/bands/glorilla"
+},
+{
+"d": "2026-06-13",
+"n": "Rob49 New Orleans w/ Sexyy Red, G Herbo, Cash Cobain",
+"w": "Smoothie King Center · New Orleans, LA",
+"t": "Arena",
+"a": "GloRilla",
+"r": "Lineup",
+"s": "https://www.jambase.com/show/rob49-smoothie-king-center-20260613"
+},
+{
+"d": "2026-08-07",
+"n": "Outside Lands 2026 — Lands End stage",
+"w": "Golden Gate Park · San Francisco, CA",
+"t": "Festival",
+"a": "GloRilla",
+"r": "Lineup",
+"s": "https://inmusicblog.com/festival/outside-lands-2026-friday-lineup-set-times/"
+},
+{
+"d": "2026-11-02",
+"n": "Citizens Live at The Wylie",
+"w": "Pittsburgh, PA",
+"t": "Arena",
+"a": "GloRilla",
+"r": "Headliner",
+"up": true,
+"s": "https://www.axs.com/artists/1113418/glorilla-tickets"
+},
+{
+"d": "2026-11-04",
+"n": "The Truth",
+"w": "Nashville, TN",
+"t": "Arena",
+"a": "GloRilla",
+"r": "Headliner",
+"up": true,
+"s": "https://www.axs.com/artists/1113418/glorilla-tickets"
+},
+{
+"d": "2026-11-06",
+"n": "Swerv & Friends Part 2 — G Herbo w/ Yung Miami, Young Thug, Fabolous",
+"w": "United Center · Chicago, IL",
+"t": "Arena",
+"a": "GloRilla",
+"r": "Lineup",
+"up": true,
+"s": "https://www.unitedcenter.com/events/2026/11/06/swerv-and-friends-part-2/"
+},
+{
+"d": "2022-10-04",
+"n": "BET Hip Hop Awards 2022 — “F.N.F.” + “Tomorrow”",
+"w": "Cobb Energy Centre · Atlanta, GA",
+"t": "Award show",
+"a": "GloRilla",
+"r": "Performer",
+"s": "https://www.brooklynvegan.com/glorilla-announces-debut-ep-anyways-lifes-great-played-the-bet-hip-hop-awards/",
+"hold": true
+},
+{
+"d": "2022-11-20",
+"n": "American Music Awards 2022 — “Tomorrow 2” w/ Cardi B",
+"w": "Microsoft Theater · Los Angeles, CA",
+"t": "Award show",
+"a": "GloRilla",
+"r": "Performer",
+"s": "https://uproxx.com/music/cardi-b-glorilla-amas-performance-tomorrow-2/",
+"hold": true
+},
+{
+"d": "2023-02-05",
+"n": "65th Grammy Awards — Hip-Hop 50 tribute",
+"w": "Crypto.com Arena · Los Angeles, CA",
+"t": "Award show",
+"a": "GloRilla",
+"r": "Performer",
+"s": "https://www.udiscovermusic.com/news/lil-baby-glorilla-lil-wayne-hip-hop-50-tribute-grammy-awards",
+"hold": true
+},
+{
+"d": "2023-06-25",
+"n": "BET Awards 2023",
+"w": "Microsoft Theater · Los Angeles, CA",
+"t": "Award show",
+"a": "GloRilla",
+"r": "Performer",
+"s": "https://www.etonline.com/glorilla-ja-rule-warren-g-lil-uzi-vert-master-p-and-more-to-perform-at-2023-bet-awards-206504",
+"hold": true
+},
+{
+"d": "2023-10-03",
+"n": "BET Hip Hop Awards 2023 — w/ Fivio Foreign",
+"w": "Cobb Energy Centre · Atlanta, GA",
+"t": "Award show",
+"a": "GloRilla",
+"r": "Performer",
+"s": "https://www.radiobigboy.com/content/2023-10-10-glorilla-fivio-foreign-cha-cha-cha-in-fiery-lunchroom-dance",
+"hold": true
+},
+{
+"d": "2023-11-08",
+"n": "A GRAMMY Salute to 50 Years of Hip-Hop — “Tomorrow”",
+"w": "YouTube Theater · Inglewood, CA",
+"t": "Award show",
+"a": "GloRilla",
+"r": "Performer",
+"s": "https://www.grammy.com/news/a-grammy-salute-to-50-years-of-hip-hop-recap-photos/",
+"hold": true
+},
+{
+"d": "2024-06-30",
+"n": "BET Awards 2024 — “Wanna Be” w/ Megan Thee Stallion",
+"w": "Peacock Theater · Los Angeles, CA",
+"t": "Award show",
+"a": "GloRilla",
+"r": "Performer",
+"s": "https://etonline.com/2024-bet-awards-megan-thee-stallion-performs-with-glorilla-and-more-of-the-nights-biggest-227932",
+"hold": true
+},
+{
+"d": "2024-09-11",
+"n": "MTV Video Music Awards 2024 — “Yeah Glo!” / “TGIF”",
+"w": "UBS Arena · Elmont, NY",
+"t": "Award show",
+"a": "GloRilla",
+"r": "Performer",
+"s": "https://en.wikipedia.org/wiki/2024_MTV_Video_Music_Awards",
+"hold": true
+},
+{
+"d": "2024-10-08",
+"n": "BET Hip Hop Awards 2024 — w/ Big Boogie “BOP”",
+"w": "Drai's · Las Vegas, NV",
+"t": "Award show",
+"a": "GloRilla",
+"r": "Guest",
+"s": "https://www.vibe.com/news/entertainment/big-boogie-glorilla-bop-2024-bet-hip-hop-awards-performance-1234932678",
+"hold": true
+},
+{
+"d": "2025-03-29",
+"n": "Billboard Women in Music 2025 — Powerhouse Award",
+"w": "YouTube Theater · Inglewood, CA",
+"t": "Award show",
+"a": "GloRilla",
+"r": "Honoree / Performer",
+"s": "https://www.indiana105.com/2025/02/26/gracie-abrams-glorilla-tyla-megan-moroney-and-more-to-perform-at-billboard-women-in-music-2025/",
+"hold": true
+},
+{
+"d": "2025-06-09",
+"n": "BET Awards 2025 — “Let Her Cook” + “Typa” w/ Keyshia Cole",
+"w": "Peacock Theater · Los Angeles, CA",
+"t": "Award show",
+"a": "GloRilla",
+"r": "Performer",
+"s": "https://en.wikipedia.org/wiki/BET_Awards_2025",
+"hold": true
+},
+{
+"d": "2025-09-07",
+"n": "MTV Video Music Awards 2025 — Busta Rhymes medley guest",
+"w": "UBS Arena · Elmont, NY",
+"t": "Award show",
+"a": "GloRilla",
+"r": "Guest",
+"s": "https://www.iheart.com/content/2025-09-07-busta-rhymes-brings-out-glorilla-papoose-more-during-medley-of-his-hits/",
+"hold": true
+}
+]
+}
