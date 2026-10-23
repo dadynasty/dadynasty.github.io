@@ -183,6 +183,9 @@ a { color: inherit; }
 .service-name { font-family: var(--font-display); font-size: 1.05rem; font-weight: 800; color: var(--text); letter-spacing: 0.5px; }
 .service-desc { font-size: 0.92rem; color: var(--text-muted); line-height: 1.65; }
 .service-tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: auto; padding-top: 10px; }
+.service-price { margin-top: 12px; padding-top: 12px; border-top: 1px solid var(--border-light); font-family: var(--font-display); font-size: 0.68rem; font-weight: 800; letter-spacing: 1.5px; text-transform: uppercase; color: var(--accent); line-height: 1.6; }
+.service-price.quote a { color: var(--chrome); text-decoration: none; }
+.service-price.quote a:hover { color: var(--accent); }
 
 /* ---- Featured ---- */
 .featured-carousel { position: relative; }
@@ -637,14 +640,14 @@ a { color: inherit; }
 <script>
 /* ======================= CONTENT — edit these ======================= */
 const SERVICES = [
-  {n:"DJ Sets", d:"Festival, tour, club and private sets. Open-format with hip-hop at the center and a crossover gear when the room wants it.", t:["Festivals","Tours","Clubs","Private"]},
-  {n:"Production", d:"Hip-hop, trap and R&B records built from the ground up, plus crossover originals with Caribbean, Afro and house DNA.", t:["Beats","Full records","Crossover"]},
-  {n:"Mixing & Mastering", d:"Pro Tools mix and master, stems or 2-track. Vocals that sit, low end that translates to club and phone.", t:["Stems","2-track","Vocal mix"]},
-  {n:"Official Remixes", d:"Remixes that reinterpret the record's emotional DNA, not just house drums under the original. DJ-ready edits included.", t:["Remix","Bootleg","Extended"]},
-  {n:"Playback & Live", d:"Show design, playback rig and tour DJ for artists on the road. Tested on the biggest festival stages in the US and Europe.", t:["Tour DJ","Playback","Show design"]},
-  {n:"Video Direction", d:"Music videos and visualizers, directed with the record in mind because he usually made the record too.", t:["Music video","Visualizer"]},
-  {n:"Songwriting", d:"Hooks, toplines and arrangement. Hum-test approved before anything gets polished.", t:["Hooks","Toplines","Arrangement"]},
-  {n:"Creative Direction", d:"Rollouts, artist development and the label side through SS and 23Ent. One plan from first single to first tour.", t:["Rollout","Artist dev","Label"]},
+  {n:"DJ Sets", d:"Festival, tour, club and private sets. Open-format with hip-hop at the center and a crossover gear when the room wants it.", t:["Festivals","Tours","Clubs","Private"], price:"Get a quote"},
+  {n:"Production", d:"Hip-hop, trap and R&B records built from the ground up, plus crossover originals with Caribbean, Afro and house DNA.", t:["Beats","Full records","Crossover"], price:"Lease from $100 · Exclusive from $1,000 · Custom from $2,000"},
+  {n:"Mixing & Mastering", d:"Pro Tools mix and master, stems or 2-track. Vocals that sit, low end that translates to club and phone. Master included with every mix.", t:["2-track","Stems","Master included"], price:"From $400 · Stems from $750"},
+  {n:"Official Remixes", d:"Remixes that reinterpret the record's emotional DNA, not just house drums under the original. DJ-ready edits included.", t:["Remix","Bootleg","Extended"], price:"From $2,500"},
+  {n:"Playback & Live", d:"Show design, playback rig and tour DJ for artists on the road. Tested on the biggest festival stages in the US and Europe.", t:["Tour DJ","Playback","Show design"], price:"Get a quote"},
+  {n:"Video Direction", d:"Music videos and visualizers, directed with the record in mind because he usually made the record too.", t:["Music video","Visualizer"], price:"Get a quote"},
+  {n:"Songwriting", d:"Hooks, toplines and arrangement. Hum-test approved before anything gets polished.", t:["Hooks","Toplines","Arrangement"], price:"Get a quote"},
+  {n:"Creative Direction", d:"Rollouts, artist development and the label side through SS and 23Ent. One plan from first single to first tour.", t:["Rollout","Artist dev","Label"], price:"Get a quote"},
 ];
 // Stages: d = ISO date (or range "start/end"), n = event, w = where, t = type, a = artist, r = role, u = true if not fully verified, s = source
 let LIVE = [];
@@ -732,7 +735,7 @@ function initPreviews(){
 
 
 // services
-document.getElementById("servicesGrid").innerHTML = SERVICES.map((s,i)=>`<div class="service-card frame"><div class="service-num">0${i+1}</div><div class="service-name">${esc(s.n)}</div><div class="service-desc">${esc(s.d)}</div><div class="service-tags">${s.t.map(t=>`<span class="role-tag">${esc(t)}</span>`).join("")}</div></div>`).join("");
+document.getElementById("servicesGrid").innerHTML = SERVICES.map((s,i)=>`<div class="service-card frame"><div class="service-num">0${i+1}</div><div class="service-name">${esc(s.n)}</div><div class="service-desc">${esc(s.d)}</div><div class="service-tags">${s.t.map(t=>`<span class="role-tag">${esc(t)}</span>`).join("")}</div><div class="service-price${/quote/i.test(s.price)?" quote":""}">${/quote/i.test(s.price)?`<a href="#contact">${esc(s.price)} →</a>`:esc(s.price)}</div></div>`).join("");
 
 
 // projects / video carousels
