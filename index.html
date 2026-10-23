@@ -185,6 +185,12 @@ a { color: inherit; }
 .service-tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: auto; padding-top: 10px; }
 .service-price { margin-top: 12px; padding-top: 12px; border-top: 1px solid var(--border-light); font-family: var(--font-display); font-size: 0.68rem; font-weight: 800; letter-spacing: 1.5px; text-transform: uppercase; color: var(--accent); line-height: 1.6; }
 .service-price.quote a { color: var(--chrome); text-decoration: none; }
+.service-tiers { list-style: none; margin: 12px 0 0; padding: 0; border-top: 1px solid var(--border-light); }
+.service-tiers li { display: grid; grid-template-columns: 1fr auto; gap: 2px 12px; padding: 10px 0; border-bottom: 1px solid var(--border); }
+.service-tiers li:last-child { border-bottom: 0; }
+.tier-n { font-family: var(--font-display); font-size: 0.66rem; font-weight: 800; letter-spacing: 1.5px; text-transform: uppercase; color: var(--text); }
+.tier-p { font-family: var(--font-display); font-size: 0.66rem; font-weight: 800; letter-spacing: 1px; color: var(--accent); white-space: nowrap; text-align: right; }
+.tier-d { grid-column: 1 / -1; font-size: 0.82rem; color: var(--text-muted); line-height: 1.5; }
 .service-price.quote a:hover { color: var(--accent); }
 
 /* ---- Featured ---- */
@@ -645,7 +651,10 @@ const SERVICES = [
   {n:"Mixing & Mastering", d:"Pro Tools mix and master, stems or 2-track. Vocals that sit, low end that translates to club and phone. Master included with every mix.", t:["2-track","Stems","Master included"], price:"From $400 · Stems from $750"},
   {n:"Official Remixes", d:"Remixes that reinterpret the record's emotional DNA, not just house drums under the original. DJ-ready edits included.", t:["Remix","Bootleg","Extended"], price:"From $2,500"},
   {n:"Playback & Live", d:"Show design, playback rig and tour DJ for artists on the road. Tested on the biggest festival stages in the US and Europe.", t:["Tour DJ","Playback","Show design"], price:"Get a quote"},
-  {n:"Video Direction", d:"Music videos and visualizers, directed with the record in mind because he usually made the record too. Run & Gun: one location, one shooter, straight edit, one revision. Treatment: concept, two locations, lighting and color. Full Production: crew, art direction, multi-day.", t:["Run & Gun","Treatment","Full production"], price:"Run & Gun $750 · Treatment from $2,000 · Full production from $5,000"},
+  {n:"Video Direction", d:"Music videos and visualizers, directed with the record in mind because he usually made the record too.", t:["Music video","Visualizer"], tiers:[
+    {n:"Run & Gun", d:"1 location · 1 shooter · straight edit · 1 revision", p:"$750"},
+    {n:"Treatment", d:"Concept + treatment · 2 locations · lighting · color grade", p:"from $2,000"},
+    {n:"Full Production", d:"Crew · art direction · multi-day · talent", p:"from $5,000"}]},
   {n:"Songwriting", d:"Hooks, toplines and arrangement. Hum-test approved before anything gets polished.", t:["Hooks","Toplines","Arrangement"], price:"Get a quote"},
   {n:"Creative Direction", d:"Rollouts, artist development and the label side through SS and 23Ent. One plan from first single to first tour.", t:["Rollout","Artist dev","Label"], price:"Get a quote"},
 ];
@@ -735,7 +744,7 @@ function initPreviews(){
 
 
 // services
-document.getElementById("servicesGrid").innerHTML = SERVICES.map((s,i)=>`<div class="service-card frame"><div class="service-num">0${i+1}</div><div class="service-name">${esc(s.n)}</div><div class="service-desc">${esc(s.d)}</div><div class="service-tags">${s.t.map(t=>`<span class="role-tag">${esc(t)}</span>`).join("")}</div><div class="service-price${/quote/i.test(s.price)?" quote":""}">${/quote/i.test(s.price)?`<a href="#contact">${esc(s.price)} →</a>`:esc(s.price)}</div></div>`).join("");
+document.getElementById("servicesGrid").innerHTML = SERVICES.map((s,i)=>`<div class="service-card frame"><div class="service-num">0${i+1}</div><div class="service-name">${esc(s.n)}</div><div class="service-desc">${esc(s.d)}</div><div class="service-tags">${s.t.map(t=>`<span class="role-tag">${esc(t)}</span>`).join("")}</div>${s.tiers?`<ul class="service-tiers">${s.tiers.map(x=>`<li><span class="tier-n">${esc(x.n)}</span><span class="tier-d">${esc(x.d)}</span><span class="tier-p">${esc(x.p)}</span></li>`).join("")}</ul>`:`<div class="service-price${/quote/i.test(s.price)?" quote":""}">${/quote/i.test(s.price)?`<a href="#contact">${esc(s.price)} →</a>`:esc(s.price)}</div>`}</div>`).join("");
 
 
 // projects / video carousels
