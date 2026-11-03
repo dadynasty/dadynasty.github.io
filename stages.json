@@ -1,5 +1,5 @@
 {
-"updatedAt": "2026-10-22",
+"updatedAt": "2026-11-03",
 "note": "d = ISO date or start/end; t = Festival|Tour|Arena|TV|Radio|Club|Award show; a = artist; r = role; u = unverified; up = upcoming (set by the daily scan); hold = not shown until Dynasty confirms; s = source url",
 "items": [
 {
@@ -950,26 +950,6 @@
 "s": "https://inmusicblog.com/festival/outside-lands-2026-friday-lineup-set-times/"
 },
 {
-"d": "2026-11-02",
-"n": "Citizens Live at The Wylie",
-"w": "Pittsburgh, PA",
-"t": "Arena",
-"a": "GloRilla",
-"r": "Headliner",
-"up": true,
-"s": "https://www.axs.com/artists/1113418/glorilla-tickets"
-},
-{
-"d": "2026-11-04",
-"n": "The Truth",
-"w": "Nashville, TN",
-"t": "Arena",
-"a": "GloRilla",
-"r": "Headliner",
-"up": true,
-"s": "https://www.axs.com/artists/1113418/glorilla-tickets"
-},
-{
 "d": "2026-11-06",
 "n": "Swerv & Friends Part 2 — G Herbo w/ Yung Miami, Young Thug, Fabolous",
 "w": "United Center · Chicago, IL",
@@ -978,6 +958,26 @@
 "r": "Lineup",
 "up": true,
 "s": "https://www.unitedcenter.com/events/2026/11/06/swerv-and-friends-part-2/"
+},
+{
+"d": "2027-03-02",
+"n": "Citizens Live at The Wylie (rescheduled from Nov 2, 2026)",
+"w": "Pittsburgh, PA",
+"t": "Arena",
+"a": "GloRilla",
+"r": "Headliner",
+"up": true,
+"s": "https://www.vividseats.com/glorilla-tickets-pittsburgh-citizens-live-at-the-wylie-11-2-2026--concerts-rap-hip-hop/production/6789490"
+},
+{
+"d": "2027-04-15",
+"n": "The Truth (rescheduled from Nov 4, 2026)",
+"w": "Nashville, TN",
+"t": "Arena",
+"a": "GloRilla",
+"r": "Headliner",
+"up": true,
+"s": "https://www.axs.com/uk/events/1379142/glorilla-rescheduled-from-11426-tickets"
 },
 {
 "d": "2022-10-04",
